@@ -1,0 +1,360 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffff;
+    font-family: "adobe-clean", sans-serif;
+   
+}
+.container {
+    display: flex;
+    margin: 0 auto;
+    background: white;
+}
+.image-container {
+    flex: 1;
+    padding-right: 4rem;
+}
+
+.image-container img {
+    width: 100%;
+    height: 529px;
+    display: block;
+}
+.content {
+    flex: 1;
+    padding: 70px;
+    justify-content: center;
+    margin-top: 50px;;
+}
+.content h1{
+    text-align: left;
+}
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+ h3 {
+    color:red;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+.content button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color:red;
+    border: none;
+    cursor: pointer;
+}
+.content button:hover {
+    background-color: #0056b3;
+}
+
+.name{
+    display: flex;
+}
+
+.name .first{
+    margin-right:350px;
+}
+.name .last{
+    padding-right:10px;
+}
+
+/* styles.css */
+
+
+#contactBtn {
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+background-color: #fefefe;
+margin: 5% auto; /* 5% from the top and centered */
+padding: 20px;
+border: 1px solid #888;
+width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.closeBtn {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+color: black;
+text-decoration: none;
+cursor: pointer;
+}
+
+form {
+display: flex;
+flex-direction: column;
+width:300px;
+}
+
+form label {
+margin: 10px 0 5px;
+}
+
+form input {
+margin-bottom: 10px;
+padding: 8px;
+font-size: 16px;
+}
+form h3{
+font-weight:600;
+}
+form button {
+padding: 10px;
+font-size: 16px;
+cursor: pointer;
+background-color: #FF3147;
+color:#fefefe;
+width:200px;
+margin:auto;
+}
+#email
+{
+border:none;
+border-bottom:1px solid black;
+}
+#firstName
+{
+border:none;
+border-bottom:1px solid black;
+}
+#lastName
+{
+border:none;
+border-bottom:1px solid black;
+}
+#our-project h3{
+text-align: center;
+}
+#our-project h1{
+font-weight:600;
+}
+
+.second-container
+{
+   display: flex;
+    background: white;
+    max-width: 1200px;
+    margin: 0 100px;
+    margin-top:100px;
+    width:80%;
+}
+.second-container h1{
+text-align: left;
+font-weight: 700;
+}
+.left {
+flex: 1;
+padding: 70px;
+}
+
+.right {
+flex: 1;
+padding: 70px;
+}
+
+.content1 h1{
+font-weight: 600;
+}
+.highlight {
+color: #e74c3c;
+font-weight: bold;
+}
+
+.image-container {
+
+}
+.content{
+display: flex;
+flex-direction: column;
+
+}
+.content1 h3,h1 {
+text-align: center;
+}
+.content1 p{
+text-align: center;
+padding-left:150px;
+padding-right:150px;
+}
+.foo{
+background-color: #FF3147;
+padding: 4rem 3rem;
+}
+.title,.sub-title{
+text-align: left;
+}
+.icon-card .icon{
+align-items: left;
+}
+.icon-card{
+box-shadow: inset;
+margin-bottom: 30px;
+width:300px;
+}
+#icon-cont{
+margin-left:0px;
+margin-right:0px;
+}
+#icon-cont h3
+{
+text-align: center;
+}
+
+#icon-cont h1
+{
+font-weight:700;
+margin-bottom:20px;
+}
+
+
+
+
+
+
+.blog-card header.dsm-entry-header {
+order: 2;
+min-height: 66px;
+margin-top: 12px;
+margin-bottom: 0px !important;
+}
+
+.uk-dotnav>.uk-active{
+margin-top: -5px;
+border: 1px solid  #FF3147;
+padding: 5px;
+border-radius: 50%;
+}
+.uk-dotnav>.uk-active>* {
+background-color: #FF3147;
+}
+.hover-card .icon {
+margin-top: 2.6rem;
+}
+
+.margin-h3 {
+margin: 12px 0;
+}
+
+.uk-button-default {
+
+background-color: #fff !important;
+color: #FF3147 !important;
+
+
+}
+
+.slider-card {
+position: relative;
+display: inline-block;
+}
+
+.hover-card {
+
+height: 100%;
+width: 100%;
+display: none;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: #FF3147;
+color: white;
+padding: 20px;
+border-radius: 6px;
+}
+
+.slider-card:hover .hover-card {
+display: block;
+}
+
+.uk-dotnav>*>* {
+
+width: 5px;
+height: 5px;
+
+background: #000;
+}
+
+.uk-dotnav>* {
+flex: none;
+margin-left: 12px;
+padding-left: 0;
+}
+
+.switecher_props {
+padding: 20px;
+background-color: #F6F6F6;
+}
+
+.uk-tab>.uk-active>a {
+color: #ffffff;
+border-color: #1e87f000;
+}
+
+.uk-tab>a {
+
+border-color: #1e87f000;
+}
+
+.uk-tab>.uk-active {
+background-color: #FF3147;
+}
+
+.uk-tab>*>a {
+color: #000;
+font-size: 12px;
+}
+
+.txt-padding {
+padding-top: 12px;
+}
+
+
+.growth_hover:hover .growth_box {
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust the shadow as needed */
+}
+
+
+.growth_box{
+    background-color: #fff !important;
+    padding: 38px 0;
+
+}
+
+
+.middle_tag{
+margin: 2px 0;
+font-size: 2.3rem;
+}
